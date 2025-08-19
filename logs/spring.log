@@ -1,0 +1,439 @@
+2025-08-20T00:23:15.851+09:00  INFO 22400 --- [assignment] [main] c.r.a.repository.BookRepositoryTest      : Starting BookRepositoryTest using Java 17.0.2 with PID 22400 (started by csu19 in C:\mybackend\spring_boot\SpringBootAssignment-main)
+2025-08-20T00:23:15.862+09:00  INFO 22400 --- [assignment] [main] c.r.a.repository.BookRepositoryTest      : The following 1 profile is active: "prod"
+2025-08-20T00:23:16.201+09:00  INFO 22400 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T00:23:16.255+09:00  INFO 22400 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-08-20T00:23:16.506+09:00  INFO 22400 --- [assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T00:23:16.566+09:00  INFO 22400 --- [assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T00:23:16.601+09:00  INFO 22400 --- [assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T00:23:16.872+09:00  INFO 22400 --- [assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T00:23:16.910+09:00  INFO 22400 --- [assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T00:23:16.989+09:00  INFO 22400 --- [assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1373e3ee
+2025-08-20T00:23:16.991+09:00  INFO 22400 --- [assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T00:23:17.017+09:00  WARN 22400 --- [assignment] [main] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T00:23:17.036+09:00  INFO 22400 --- [assignment] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.11.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T00:23:17.708+09:00  INFO 22400 --- [assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T00:23:17.748+09:00  INFO 22400 --- [assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:23:18.224+09:00  INFO 22400 --- [assignment] [main] c.r.a.repository.BookRepositoryTest      : Started BookRepositoryTest in 2.741 seconds (process running for 3.638)
+2025-08-20T00:23:18.908+09:00  INFO 22400 --- [assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:23:18.911+09:00  INFO 22400 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T00:23:18.915+09:00  INFO 22400 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-20T00:23:33.233+09:00  INFO 22124 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Starting AssignmentApplication using Java 17.0.2 with PID 22124 (C:\mybackend\spring_boot\SpringBootAssignment-main\target\classes started by csu19 in C:\mybackend\spring_boot\SpringBootAssignment-main)
+2025-08-20T00:23:33.235+09:00  INFO 22124 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : The following 1 profile is active: "prod"
+2025-08-20T00:23:33.281+09:00  INFO 22124 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-20T00:23:33.282+09:00  INFO 22124 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-20T00:23:34.222+09:00  INFO 22124 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T00:23:34.266+09:00  INFO 22124 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2025-08-20T00:23:34.915+09:00  INFO 22124 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T00:23:34.933+09:00  INFO 22124 --- [assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T00:23:34.934+09:00  INFO 22124 --- [assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T00:23:34.991+09:00  INFO 22124 --- [assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T00:23:34.991+09:00  INFO 22124 --- [assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1709 ms
+2025-08-20T00:23:35.487+09:00  INFO 22124 --- [assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T00:23:35.592+09:00  INFO 22124 --- [assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T00:23:35.629+09:00  INFO 22124 --- [assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T00:23:35.959+09:00  INFO 22124 --- [assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T00:23:35.988+09:00  INFO 22124 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T00:23:36.054+09:00  INFO 22124 --- [assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@47ab601c
+2025-08-20T00:23:36.056+09:00  INFO 22124 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T00:23:36.074+09:00  WARN 22124 --- [assignment] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T00:23:36.090+09:00  INFO 22124 --- [assignment] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.11.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T00:23:36.652+09:00  INFO 22124 --- [assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T00:23:36.676+09:00  INFO 22124 --- [assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:23:37.116+09:00  WARN 22124 --- [assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T00:23:37.641+09:00  WARN 22124 --- [assignment] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-08-20T00:23:38.009+09:00  INFO 22124 --- [assignment] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1/lab_db?user=lab&password=***'
+2025-08-20T00:23:38.047+09:00  INFO 22124 --- [assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-20T00:23:38.053+09:00  INFO 22124 --- [assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-20T00:23:38.117+09:00  INFO 22124 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T00:23:38.130+09:00  INFO 22124 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Started AssignmentApplication in 5.384 seconds (process running for 5.872)
+2025-08-20T00:23:38.141+09:00  INFO 22124 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : 현재 활성호된 CustomerVo Bean = MyEnvironment(mode=운영환경)
+2025-08-20T00:23:38.141+09:00  INFO 22124 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:23:38.142+09:00  INFO 22124 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 33
+2025-08-20T00:23:38.142+09:00  INFO 22124 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:23:38.142+09:00  INFO 22124 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 34
+2025-08-20T00:24:18.122+09:00  INFO 22124 --- [assignment] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T00:24:18.122+09:00  INFO 22124 --- [assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T00:24:18.123+09:00  INFO 22124 --- [assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-20T00:24:45.659+09:00  INFO 22124 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T00:24:45.675+09:00  INFO 22124 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T00:24:45.678+09:00  INFO 22124 --- [assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:24:45.681+09:00  INFO 22124 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T00:24:45.683+09:00  INFO 22124 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-20T00:24:47.772+09:00  INFO 30552 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Starting AssignmentApplication using Java 17.0.2 with PID 30552 (C:\mybackend\spring_boot\SpringBootAssignment-main\target\classes started by csu19 in C:\mybackend\spring_boot\SpringBootAssignment-main)
+2025-08-20T00:24:47.776+09:00  INFO 30552 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : The following 1 profile is active: "prod"
+2025-08-20T00:24:47.817+09:00  INFO 30552 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-20T00:24:47.818+09:00  INFO 30552 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-20T00:24:48.766+09:00  INFO 30552 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T00:24:48.808+09:00  INFO 30552 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2025-08-20T00:24:49.484+09:00  INFO 30552 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T00:24:49.503+09:00  INFO 30552 --- [assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T00:24:49.503+09:00  INFO 30552 --- [assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T00:24:49.563+09:00  INFO 30552 --- [assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T00:24:49.564+09:00  INFO 30552 --- [assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1745 ms
+2025-08-20T00:24:49.987+09:00  INFO 30552 --- [assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T00:24:50.078+09:00  INFO 30552 --- [assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T00:24:50.105+09:00  INFO 30552 --- [assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T00:24:50.432+09:00  INFO 30552 --- [assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T00:24:50.464+09:00  INFO 30552 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T00:24:50.538+09:00  INFO 30552 --- [assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@45e7b93d
+2025-08-20T00:24:50.539+09:00  INFO 30552 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T00:24:50.559+09:00  WARN 30552 --- [assignment] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T00:24:50.573+09:00  INFO 30552 --- [assignment] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.11.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T00:24:51.121+09:00  INFO 30552 --- [assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T00:24:51.167+09:00  INFO 30552 --- [assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:24:51.542+09:00  WARN 30552 --- [assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T00:24:51.907+09:00  WARN 30552 --- [assignment] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-08-20T00:24:52.252+09:00  INFO 30552 --- [assignment] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1/lab_db?user=lab&password=***'
+2025-08-20T00:24:52.294+09:00  INFO 30552 --- [assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-20T00:24:52.299+09:00  INFO 30552 --- [assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-20T00:24:52.352+09:00  INFO 30552 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T00:24:52.366+09:00  INFO 30552 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Started AssignmentApplication in 5.153 seconds (process running for 5.713)
+2025-08-20T00:24:52.372+09:00  INFO 30552 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : 현재 활성호된 CustomerVo Bean = MyEnvironment(mode=운영환경)
+2025-08-20T00:24:52.374+09:00  INFO 30552 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:24:52.374+09:00  INFO 30552 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 32
+2025-08-20T00:24:52.374+09:00  INFO 30552 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:24:52.375+09:00  INFO 30552 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 42
+2025-08-20T00:26:22.319+09:00  INFO 30552 --- [assignment] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T00:26:22.320+09:00  INFO 30552 --- [assignment] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T00:26:22.320+09:00  INFO 30552 --- [assignment] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-20T00:27:54.458+09:00  INFO 30552 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T00:27:54.472+09:00  INFO 30552 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T00:27:54.475+09:00  INFO 30552 --- [assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:27:54.479+09:00  INFO 30552 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T00:27:54.483+09:00  INFO 30552 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-20T00:27:58.148+09:00  INFO 33280 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Starting AssignmentApplication using Java 17.0.2 with PID 33280 (C:\mybackend\spring_boot\SpringBootAssignment-main\target\classes started by csu19 in C:\mybackend\spring_boot\SpringBootAssignment-main)
+2025-08-20T00:27:58.150+09:00  INFO 33280 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : The following 1 profile is active: "prod"
+2025-08-20T00:27:58.196+09:00  INFO 33280 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-20T00:27:58.197+09:00  INFO 33280 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-20T00:27:59.216+09:00  INFO 33280 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T00:27:59.259+09:00  INFO 33280 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2025-08-20T00:27:59.963+09:00  INFO 33280 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T00:27:59.976+09:00  INFO 33280 --- [assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T00:27:59.977+09:00  INFO 33280 --- [assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T00:28:00.034+09:00  INFO 33280 --- [assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T00:28:00.034+09:00  INFO 33280 --- [assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1837 ms
+2025-08-20T00:28:00.482+09:00  INFO 33280 --- [assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T00:28:00.593+09:00  INFO 33280 --- [assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T00:28:00.638+09:00  INFO 33280 --- [assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T00:28:00.946+09:00  INFO 33280 --- [assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T00:28:00.977+09:00  INFO 33280 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T00:28:01.035+09:00  INFO 33280 --- [assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6d465627
+2025-08-20T00:28:01.037+09:00  INFO 33280 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T00:28:01.057+09:00  WARN 33280 --- [assignment] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T00:28:01.071+09:00  INFO 33280 --- [assignment] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.11.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T00:28:01.615+09:00  INFO 33280 --- [assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T00:28:01.663+09:00  INFO 33280 --- [assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:28:02.289+09:00  WARN 33280 --- [assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T00:28:02.725+09:00  WARN 33280 --- [assignment] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-08-20T00:28:03.057+09:00  INFO 33280 --- [assignment] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1/lab_db?user=lab&password=***'
+2025-08-20T00:28:03.106+09:00  INFO 33280 --- [assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-20T00:28:03.112+09:00  INFO 33280 --- [assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-20T00:28:03.188+09:00  INFO 33280 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T00:28:03.202+09:00  INFO 33280 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Started AssignmentApplication in 5.542 seconds (process running for 5.991)
+2025-08-20T00:28:03.210+09:00  INFO 33280 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : 현재 활성호된 CustomerVo Bean = MyEnvironment(mode=운영환경)
+2025-08-20T00:28:03.211+09:00  INFO 33280 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:28:03.211+09:00  INFO 33280 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 60
+2025-08-20T00:28:03.212+09:00  INFO 33280 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:28:03.212+09:00  INFO 33280 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 60
+2025-08-20T00:28:17.179+09:00  INFO 33280 --- [assignment] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T00:28:17.179+09:00  INFO 33280 --- [assignment] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T00:28:17.180+09:00  INFO 33280 --- [assignment] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-20T00:30:56.723+09:00  WARN 33280 --- [assignment] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.rookies4.assignment.exception.BusinessException: User Not Found]
+2025-08-20T00:31:10.126+09:00  INFO 33280 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T00:31:10.141+09:00  INFO 33280 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T00:31:10.145+09:00  INFO 33280 --- [assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:31:10.148+09:00  INFO 33280 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T00:31:10.152+09:00  INFO 33280 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-20T00:31:13.860+09:00  INFO 19956 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Starting AssignmentApplication using Java 17.0.2 with PID 19956 (C:\mybackend\spring_boot\SpringBootAssignment-main\target\classes started by csu19 in C:\mybackend\spring_boot\SpringBootAssignment-main)
+2025-08-20T00:31:13.863+09:00  INFO 19956 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : The following 1 profile is active: "prod"
+2025-08-20T00:31:13.918+09:00  INFO 19956 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-20T00:31:13.918+09:00  INFO 19956 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-20T00:31:14.811+09:00  INFO 19956 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T00:31:14.866+09:00  INFO 19956 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-08-20T00:31:15.519+09:00  INFO 19956 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T00:31:15.541+09:00  INFO 19956 --- [assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T00:31:15.542+09:00  INFO 19956 --- [assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T00:31:15.608+09:00  INFO 19956 --- [assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T00:31:15.608+09:00  INFO 19956 --- [assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1689 ms
+2025-08-20T00:31:16.021+09:00  INFO 19956 --- [assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T00:31:16.105+09:00  INFO 19956 --- [assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T00:31:16.130+09:00  INFO 19956 --- [assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T00:31:16.461+09:00  INFO 19956 --- [assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T00:31:16.496+09:00  INFO 19956 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T00:31:16.585+09:00  INFO 19956 --- [assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@629c5dd8
+2025-08-20T00:31:16.588+09:00  INFO 19956 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T00:31:16.613+09:00  WARN 19956 --- [assignment] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T00:31:16.629+09:00  INFO 19956 --- [assignment] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.11.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T00:31:17.182+09:00  INFO 19956 --- [assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T00:31:17.225+09:00  INFO 19956 --- [assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:31:17.914+09:00  WARN 19956 --- [assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T00:31:18.363+09:00  WARN 19956 --- [assignment] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-08-20T00:31:18.665+09:00  INFO 19956 --- [assignment] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1/lab_db?user=lab&password=***'
+2025-08-20T00:31:18.706+09:00  INFO 19956 --- [assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-20T00:31:18.712+09:00  INFO 19956 --- [assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-20T00:31:18.762+09:00  INFO 19956 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T00:31:18.773+09:00  INFO 19956 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Started AssignmentApplication in 5.444 seconds (process running for 5.899)
+2025-08-20T00:31:18.777+09:00  INFO 19956 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T00:31:18.783+09:00  INFO 19956 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : 현재 활성호된 CustomerVo Bean = MyEnvironment(mode=운영환경)
+2025-08-20T00:31:18.783+09:00  INFO 19956 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:31:18.784+09:00  INFO 19956 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 22
+2025-08-20T00:31:18.784+09:00  INFO 19956 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:31:18.784+09:00  INFO 19956 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 79
+2025-08-20T00:31:18.794+09:00  INFO 19956 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T00:31:18.798+09:00  INFO 19956 --- [assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:31:18.801+09:00  INFO 19956 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T00:31:18.805+09:00  INFO 19956 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-20T00:31:22.511+09:00  INFO 27420 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Starting AssignmentApplication using Java 17.0.2 with PID 27420 (C:\mybackend\spring_boot\SpringBootAssignment-main\target\classes started by csu19 in C:\mybackend\spring_boot\SpringBootAssignment-main)
+2025-08-20T00:31:22.514+09:00  INFO 27420 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : The following 1 profile is active: "prod"
+2025-08-20T00:31:22.563+09:00  INFO 27420 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-20T00:31:22.563+09:00  INFO 27420 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-20T00:31:23.635+09:00  INFO 27420 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T00:31:23.683+09:00  INFO 27420 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-08-20T00:31:24.427+09:00  INFO 27420 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T00:31:24.444+09:00  INFO 27420 --- [assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T00:31:24.445+09:00  INFO 27420 --- [assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T00:31:24.517+09:00  INFO 27420 --- [assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T00:31:24.518+09:00  INFO 27420 --- [assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1954 ms
+2025-08-20T00:31:25.058+09:00  INFO 27420 --- [assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T00:31:25.237+09:00  INFO 27420 --- [assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T00:31:25.269+09:00  INFO 27420 --- [assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T00:31:25.672+09:00  INFO 27420 --- [assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T00:31:25.704+09:00  INFO 27420 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T00:31:25.777+09:00  INFO 27420 --- [assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6b9f8e9f
+2025-08-20T00:31:25.780+09:00  INFO 27420 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T00:31:25.805+09:00  WARN 27420 --- [assignment] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T00:31:25.824+09:00  INFO 27420 --- [assignment] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.11.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T00:31:26.459+09:00  INFO 27420 --- [assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T00:31:26.508+09:00  INFO 27420 --- [assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:31:27.042+09:00  WARN 27420 --- [assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T00:31:27.461+09:00  WARN 27420 --- [assignment] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-08-20T00:31:27.793+09:00  INFO 27420 --- [assignment] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1/lab_db?user=lab&password=***'
+2025-08-20T00:31:27.843+09:00  INFO 27420 --- [assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-20T00:31:27.851+09:00  INFO 27420 --- [assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-20T00:31:27.945+09:00  INFO 27420 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T00:31:27.956+09:00  INFO 27420 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Started AssignmentApplication in 5.98 seconds (process running for 6.473)
+2025-08-20T00:31:27.964+09:00  INFO 27420 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : 현재 활성호된 CustomerVo Bean = MyEnvironment(mode=운영환경)
+2025-08-20T00:31:27.965+09:00  INFO 27420 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:31:27.965+09:00  INFO 27420 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 32
+2025-08-20T00:31:27.965+09:00  INFO 27420 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:31:27.965+09:00  INFO 27420 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 85
+2025-08-20T00:31:30.835+09:00  INFO 27420 --- [assignment] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T00:31:30.836+09:00  INFO 27420 --- [assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T00:31:30.837+09:00  INFO 27420 --- [assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-20T00:31:50.136+09:00  INFO 27420 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T00:31:50.162+09:00  INFO 27420 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T00:31:50.166+09:00  INFO 27420 --- [assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:31:50.170+09:00  INFO 27420 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T00:31:50.174+09:00  INFO 27420 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-20T00:31:53.982+09:00  INFO 32032 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Starting AssignmentApplication using Java 17.0.2 with PID 32032 (C:\mybackend\spring_boot\SpringBootAssignment-main\target\classes started by csu19 in C:\mybackend\spring_boot\SpringBootAssignment-main)
+2025-08-20T00:31:53.987+09:00  INFO 32032 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : The following 1 profile is active: "prod"
+2025-08-20T00:31:54.033+09:00  INFO 32032 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-20T00:31:54.033+09:00  INFO 32032 --- [assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-20T00:31:55.028+09:00  INFO 32032 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T00:31:55.067+09:00  INFO 32032 --- [assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2025-08-20T00:31:55.777+09:00  INFO 32032 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T00:31:55.795+09:00  INFO 32032 --- [assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T00:31:55.796+09:00  INFO 32032 --- [assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T00:31:55.890+09:00  INFO 32032 --- [assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T00:31:55.890+09:00  INFO 32032 --- [assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1857 ms
+2025-08-20T00:31:56.307+09:00  INFO 32032 --- [assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T00:31:56.394+09:00  INFO 32032 --- [assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T00:31:56.424+09:00  INFO 32032 --- [assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T00:31:56.713+09:00  INFO 32032 --- [assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T00:31:56.744+09:00  INFO 32032 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T00:31:56.806+09:00  INFO 32032 --- [assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7d56e27d
+2025-08-20T00:31:56.808+09:00  INFO 32032 --- [assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T00:31:56.829+09:00  WARN 32032 --- [assignment] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T00:31:56.841+09:00  INFO 32032 --- [assignment] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.11.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T00:31:57.368+09:00  INFO 32032 --- [assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T00:31:57.410+09:00  INFO 32032 --- [assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:31:57.853+09:00  WARN 32032 --- [assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T00:31:58.263+09:00  WARN 32032 --- [assignment] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-08-20T00:31:58.481+09:00  INFO 32032 --- [assignment] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1/lab_db?user=lab&password=***'
+2025-08-20T00:31:58.521+09:00  INFO 32032 --- [assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-20T00:31:58.526+09:00  INFO 32032 --- [assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-20T00:31:58.571+09:00  INFO 32032 --- [assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T00:31:58.583+09:00  INFO 32032 --- [assignment] [restartedMain] c.r.assignment.AssignmentApplication     : Started AssignmentApplication in 5.135 seconds (process running for 5.61)
+2025-08-20T00:31:58.591+09:00  INFO 32032 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : 현재 활성호된 CustomerVo Bean = MyEnvironment(mode=운영환경)
+2025-08-20T00:31:58.592+09:00  INFO 32032 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:31:58.592+09:00  INFO 32032 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 48
+2025-08-20T00:31:58.592+09:00  INFO 32032 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : username = springboot
+2025-08-20T00:31:58.592+09:00  INFO 32032 --- [assignment] [restartedMain] c.r.assignment.runner.MyPropRunner       : port = 36
+2025-08-20T00:32:11.094+09:00  INFO 32032 --- [assignment] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T00:32:11.094+09:00  INFO 32032 --- [assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T00:32:11.095+09:00  INFO 32032 --- [assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-20T00:33:23.140+09:00  WARN 32032 --- [assignment] [http-nio-8080-exec-5] o.m.jdbc.message.server.ErrorPacket      : Error: 1048-23000: Column 'isbn' cannot be null
+2025-08-20T00:33:23.141+09:00  WARN 32032 --- [assignment] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1048, SQLState: 23000
+2025-08-20T00:33:23.141+09:00 ERROR 32032 --- [assignment] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : (conn=815) Column 'isbn' cannot be null
+2025-08-20T00:33:23.148+09:00 ERROR 32032 --- [assignment] [http-nio-8080-exec-5] c.r.a.e.advice.DefaultExceptionAdvice    : could not execute statement [(conn=815) Column 'isbn' cannot be null] [update book set author=?,isbn=?,price=?,title=? where id=?]; SQL [update book set author=?,isbn=?,price=?,title=? where id=?]; constraint [null]
+
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [(conn=815) Column 'isbn' cannot be null] [update book set author=?,isbn=?,price=?,title=? where id=?]; SQL [update book set author=?,isbn=?,price=?,title=? where id=?]; constraint [null]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:294) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:256) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795) ~[spring-tx-6.2.9.jar:6.2.9]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.2.9.jar:6.2.9]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:698) ~[spring-tx-6.2.9.jar:6.2.9]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:416) ~[spring-tx-6.2.9.jar:6.2.9]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.8.jar:3.4.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.9.jar:6.2.9]
+	at jdk.proxy4/jdk.proxy4.$Proxy140.save(Unknown Source) ~[na:na]
+	at com.rookies4.assignment.controller.BookRestController.updateBookById(BookRestController.java:59) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=815) Column 'isbn' cannot be null] [update book set author=?,isbn=?,price=?,title=? where id=?]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard.doStaticUpdate(UpdateCoordinatorStandard.java:781) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard.performUpdate(UpdateCoordinatorStandard.java:328) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard.update(UpdateCoordinatorStandard.java:245) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:169) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:644) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:511) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:414) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1429) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:491) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2354) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1978) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-6.2.9.jar:6.2.9]
+	... 67 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=815) Column 'isbn' cannot be null
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297) ~[mariadb-java-client-3.4.2.jar:na]
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378) ~[mariadb-java-client-3.4.2.jar:na]
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189) ~[mariadb-java-client-3.4.2.jar:na]
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235) ~[mariadb-java-client-3.4.2.jar:na]
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174) ~[mariadb-java-client-3.4.2.jar:na]
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093) ~[mariadb-java-client-3.4.2.jar:na]
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017) ~[mariadb-java-client-3.4.2.jar:na]
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101) ~[mariadb-java-client-3.4.2.jar:na]
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:314) ~[mariadb-java-client-3.4.2.jar:na]
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:291) ~[mariadb-java-client-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	... 88 common frames omitted
+
+2025-08-20T00:33:23.167+09:00  WARN 32032 --- [assignment] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [(conn=815) Column 'isbn' cannot be null] [update book set author=?,isbn=?,price=?,title=? where id=?]; SQL [update book set author=?,isbn=?,price=?,title=? where id=?]; constraint [null]]
+2025-08-20T00:34:15.604+09:00  INFO 32032 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T00:34:15.623+09:00  INFO 32032 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T00:34:15.628+09:00  INFO 32032 --- [assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T00:34:15.631+09:00  INFO 32032 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T00:34:15.634+09:00  INFO 32032 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
