@@ -46,6 +46,11 @@ public class BookRestController {
 
     }
 
+    @GetMapping("/author/{author}")
+    public List<Book> getBooksByAuthor(@PathVariable String author) {
+        return bookRepository.findByAuthor(author);
+    }
+
     @PutMapping("/{id}")
     public Book updateBookById(@PathVariable Long id,@RequestBody Book book){
         Book existBook = getExistBook(id);
