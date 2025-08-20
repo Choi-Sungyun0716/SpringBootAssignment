@@ -45,11 +45,9 @@ public class BookRestController {
         return existBook;
 
     }
-    @GetMapping("/{author}")
-    public List<Book> getBooksByAuthor(@PathVariable String author){
-        List<Book> existBooks = bookRepository.findByAuthor(author);
-        return existBooks;
-
+    @GetMapping("/author/{author}")
+    public List<Book> getBooksByAuthor(@PathVariable String author) {
+        return bookRepository.findByAuthor(author);
     }
 
 
