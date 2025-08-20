@@ -20,12 +20,12 @@ public class BookRestController {
 
 
     @PostMapping
-    public Book getBooks(@RequestBody Book book){
+    public Book getAllBooks(@RequestBody Book book){
         return bookRepository.save(book);
     }
 
     @GetMapping
-    public List<Book> addBooks(){
+    public List<Book> createBook(){
         return bookRepository.findAll();
 
     }
@@ -41,13 +41,20 @@ public class BookRestController {
     @GetMapping("/isbn/{isbn}")
     public Book getBookByIsbn(@PathVariable String isbn){
         Optional<Book> optionalBook = bookRepository.findByIsbn(isbn);
-        Book existBook = optionalBook.orElseThrow(()->new BusinessException("User Not Found", HttpStatus.NOT_FOUND));
+        Book existBook = optionalBook.orElseThrow(()->new BusinessException("Book Not Found", HttpStatus.NOT_FOUND));
         return existBook;
 
     }
+    @GetMapping("/{author}")
+    public List<Book> getBooksByAuthor(@PathVariable String author){
+        List<Book> existBooks = bookRepository.findByAuthor(author);
+        return existBooks;
+
+    }
+
 
     @PutMapping("/{id}")
-    public Book updateBookById(@PathVariable Long id,@RequestBody Book book){
+    public Book updateBook(@PathVariable Long id,@RequestBody Book book){
         Book existBook = getExistBook(id);
 
         existBook.setTitle(book.getTitle());
@@ -75,8 +82,8 @@ public class BookRestController {
 
     private Book getExistBook(Long id) {
         Optional<Book> optionalBook = bookRepository.findById(id);
-        Book existUser = optionalBook.orElseThrow(()->new BusinessException("User Not Found", HttpStatus.NOT_FOUND));
-        return existUser;
+        Book existBook = optionalBook.orElseThrow(()->new BusinessException("Book Not Found", HttpStatus.NOT_FOUND));
+        return existBook;
     }
 
     //asdf
