@@ -1,6 +1,6 @@
 package com.rookies4.assignment.controller.dto;
 
-import com.rookies4.myspringbootlab.entity.Book;
+import com.rookies4.assignment.entity.Book;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Positive;
 import lombok.AllArgsConstructor;
