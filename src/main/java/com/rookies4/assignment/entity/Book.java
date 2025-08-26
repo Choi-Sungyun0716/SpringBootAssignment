@@ -1,20 +1,23 @@
 package com.rookies4.assignment.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "book")
+@Table(name = "books")
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "book_detail_id")
     private Long id;
 
     @Column(nullable = false)
@@ -31,4 +34,7 @@ public class Book {
 
     @Column(nullable = false)
     private Integer price;
+
+    @OneToOne(fetch = FetchType.LAZY, mappedBy = "book", cascade = CascadeType.ALL)
+    private BookDetail bookDetail;
 }
