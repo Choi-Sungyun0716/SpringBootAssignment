@@ -2,7 +2,9 @@ package com.rookies4.assignment.service;
 
 import com.rookies4.assignment.controller.dto.BookDTO;
 import com.rookies4.assignment.entity.Book;
+import com.rookies4.assignment.entity.BookDetail;
 import com.rookies4.assignment.exception.BusinessException;
+import com.rookies4.assignment.exception.ErrorCode;
 import com.rookies4.assignment.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -52,6 +54,10 @@ public class BookService {
 
     @Transactional
     public BookDTO.Response createBook(BookDTO.Request request){
+
+        if (bookRepository.existsByIsbn(request.getIsbn())) {
+            throw new BusinessException(ErrorCode.ISBN_DUPLICATE, request.getIsbn());
+        }
         Book entity = request.toEntity();
 
         Book savedEntity = bookRepository.save(entity);
@@ -60,27 +66,43 @@ public class BookService {
     }
 
     @Transactional
-    public BookDTO.Response updateBook(Long id, BookDTO.Request request){
+    public BookDTO.Response updateBook(Long id, BookDTO.Request request) {
+        // Find the book
+        Book book = bookRepository.findById(id)
+                .orElseThrow(() -> new BusinessException(ErrorCode.RESOURCE_NOT_FOUND, "Book", "id", id));
 
-        Book book = getBookExist(id);
-
-        if(request.getTitle() != null) {
-            book.setTitle(request.getTitle());
+        // Check if another book already has the ISBN
+        if (!book.getIsbn().equals(request.getIsbn()) &&
+                bookRepository.existsByIsbn(request.getIsbn())) {
+            throw new BusinessException(ErrorCode.ISBN_DUPLICATE, request.getIsbn());
         }
 
-        if(request.getAuthor() != null) {
-            book.setAuthor(request.getAuthor());
+        // Update book basic info
+        book.setTitle(request.getTitle());
+        book.setAuthor(request.getAuthor());
+        book.setIsbn(request.getIsbn());
+        book.setPrice(request.getPrice());
+        book.setPublishDate(request.getPublishDate());
+
+        // Detail 수정
+        if (request.getDetailRequest() != null) {
+            BookDetail detail = book.getBookDetail();
+            if (detail == null) {
+                detail = new BookDetail();
+                detail.setBook(book);
+            }
+            detail.setDescription(request.getDetailRequest().getDescription());
+            detail.setLanguage(request.getDetailRequest().getLanguage());
+            detail.setPageCount(request.getDetailRequest().getPageCount());
+            detail.setPublisher(request.getDetailRequest().getPublisher());
+            detail.setCoverImageUrl(request.getDetailRequest().getCoverImageUrl());
+            detail.setEdition(request.getDetailRequest().getEdition());
+
+            book.setBookDetail(detail);
         }
 
-        if(request.getPublishDate() != null) {
-            book.setPublishDate(request.getPublishDate());
-        }
-
-        if(request.getPrice() != null) {
-            book.setPrice(request.getPrice());
-        }
-
-        return BookDTO.Response.fromEntity(book);
+        Book updated = bookRepository.save(book);
+        return BookDTO.Response.fromEntity(updated);
     }
 
     @Transactional
