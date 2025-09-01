@@ -34,4 +34,7 @@ public class BookDetail {
     @JoinColumn(name = "book_id", unique = true)
     private Book book;
 
+
+
+
 }
