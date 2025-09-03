@@ -29,6 +29,16 @@ public interface BookRepository extends JpaRepository<Book, Long> {
     @Query("SELECT b FROM Book b JOIN FETCH b.bookDetail WHERE b.isbn = :isbn")
     Optional<Book> findByIsbnWithBookDetail(@Param("isbn") String isbn);
 
+    //ID로 도서를 조회하면서 BookDetail과 Publisher를 모두 즉시 로딩합니다.
+    @Query("SELECT b FROM Book b JOIN FETCH b.bookDetail JOIN FETCH b.publisher WHERE b.id = :id")
+    Optional<Book> findByIdWithAllDetails(@Param("id") Long id);
+
+    //특정 출판사의 모든 도서를 조회합니다.
+    List<Book> findByPublisherId(Long publisherId);
+
+    //특정 출판사의 도서 수를 계산합니다.
+    Long countByPublisherId(@Param("publisherId") Long publisherId);
+
     // ISBN 존재 여부 확인
     boolean existsByIsbn(String isbn);
 }

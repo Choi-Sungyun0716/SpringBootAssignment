@@ -1,7 +1,6 @@
 package com.rookies4.assignment.controller;
 
 import com.rookies4.assignment.controller.dto.BookDTO;
-import com.rookies4.assignment.exception.BusinessException;
 import com.rookies4.assignment.service.BookService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -14,7 +13,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/books")
-public class BookController {
+public class BookDetailController {
 
     private final BookService bookService;
 
@@ -47,7 +46,7 @@ public class BookController {
 
     @GetMapping("/search/title")
     public ResponseEntity<List<BookDTO.Response>> getBooksByTitle(@RequestParam String title) {
-        return ResponseEntity.ok(bookService.getBookByTitle(title));
+        return ResponseEntity.ok(bookService.getBooksByTitle(title));
     }
 
 

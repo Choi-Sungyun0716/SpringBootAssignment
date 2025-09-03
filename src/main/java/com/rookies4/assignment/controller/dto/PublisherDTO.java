@@ -1,5 +1,6 @@
 package com.rookies4.assignment.controller.dto;
 
+import com.rookies4.assignment.entity.Publisher;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.PastOrPresent;
 import jakarta.validation.constraints.Size;
